@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
+	"go-learn/le2"
 	"reflect"
 )
 
@@ -53,8 +54,9 @@ func Parse(i interface{}) interface{} {
 }
 
 func main() {
-	p1 := Parse("Apple").(*item)
-	fmt.Println(p1)
-	p2 := Parse([]string{"zhangsan", "man"}).(*person)
-	fmt.Println(p2)
+
+	//	le1.IfDemo1()
+	//le2.GetUrls()
+	le2.GetUrl()
+
 }
