@@ -3,7 +3,6 @@ package main
 import (
 	"errors"
 	"fmt"
-	"go-learn/le2"
 	"reflect"
 )
 
@@ -54,9 +53,6 @@ func Parse(i interface{}) interface{} {
 }
 
 func main() {
-
-	//	le1.IfDemo1()
-	//le2.GetUrls()
-	le2.GetUrl()
+	fmt.Println("server starting ... ")
 
 }
